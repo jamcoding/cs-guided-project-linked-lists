@@ -32,7 +32,7 @@ def reverse(head_of_list):
         # move all the pointers forward
         prev_node = curr_node
         curr_node = next_node
-        if curr_node is not None:
+        if curr_node is not None: 
             next_node = curr_node.next
 
     return prev_node
